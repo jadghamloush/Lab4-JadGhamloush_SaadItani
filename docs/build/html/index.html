@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to pyqt’s documentation! &mdash; Pyqt 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            Pyqt
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to pyqt’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Pyqt</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to pyqt’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="welcome-to-pyqt-s-documentation">
+<h1>Welcome to pyqt’s documentation!<a class="headerlink" href="#welcome-to-pyqt-s-documentation" title="Permalink to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-pyqt"></span><dl class="py class">
+<dt class="sig sig-object py" id="pyqt.Course">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt.</span></span><span class="sig-name descname"><span class="pre">Course</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">course_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">instructor_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Course" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class representing a course.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>course_name</strong> (<em>str</em>) – The name of the course</p></li>
+<li><p><strong>instructor_id</strong> (<em>int</em>) – The ID of the instructor assigned to the course</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt.Database">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt.</span></span><span class="sig-name descname"><span class="pre">Database</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">db_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'school1.db'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>The Database class manages the database connection and all CRUD (Create, Read, Update, Delete) operations
+for students, instructors, courses, and their associations.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>db_name</strong> (<em>str</em><em>, </em><em>optional</em>) – The name of the database file to connect to, defaults to ‘school1.db’</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.add_course">
+<span class="sig-name descname"><span class="pre">add_course</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">course</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.add_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.add_course" title="Permalink to this definition"></a></dt>
+<dd><p>Adds a new course to the database if the instructor exists and the course name does not already exist.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>course</strong> (<a class="reference internal" href="#pyqt.Course" title="pyqt.Course"><em>Course</em></a>) – The course object containing course_name and instructor_id</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>sqlite3.IntegrityError</strong> – If the course name already exists</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.add_instructor">
+<span class="sig-name descname"><span class="pre">add_instructor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instructor</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.add_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.add_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Adds a new instructor to the database after validating their email and age.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>instructor</strong> (<a class="reference internal" href="#pyqt.Instructor" title="pyqt.Instructor"><em>Instructor</em></a>) – The instructor object containing name, age, and email</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>sqlite3.IntegrityError</strong> – If an instructor with the same ID already exists</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.add_student">
+<span class="sig-name descname"><span class="pre">add_student</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">student</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.add_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.add_student" title="Permalink to this definition"></a></dt>
+<dd><p>Adds a new student to the database after validating their email and age.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>student</strong> (<a class="reference internal" href="#pyqt.Student" title="pyqt.Student"><em>Student</em></a>) – The student object containing name, age, and email</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>sqlite3.IntegrityError</strong> – If a student with the same ID already exists</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.create_tables">
+<span class="sig-name descname"><span class="pre">create_tables</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.create_tables"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.create_tables" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the necessary tables in the SQLite database if they do not already exist.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.delete_course">
+<span class="sig-name descname"><span class="pre">delete_course</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">course_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.delete_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.delete_course" title="Permalink to this definition"></a></dt>
+<dd><p>Deletes a course from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>course_id</strong> (<em>int</em>) – The ID of the course</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.delete_instructor">
+<span class="sig-name descname"><span class="pre">delete_instructor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instructor_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.delete_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.delete_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Deletes an instructor from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>instructor_id</strong> (<em>int</em>) – The ID of the instructor</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.delete_student">
+<span class="sig-name descname"><span class="pre">delete_student</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">student_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.delete_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.delete_student" title="Permalink to this definition"></a></dt>
+<dd><p>Deletes a student from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>student_id</strong> (<em>int</em>) – The ID of the student</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.get_course_id_by_name">
+<span class="sig-name descname"><span class="pre">get_course_id_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">course_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.get_course_id_by_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.get_course_id_by_name" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves the course’s ID by its name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>course_name</strong> (<em>str</em>) – The name of the course</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The ID of the course, or None if not found</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int or None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.get_courses">
+<span class="sig-name descname"><span class="pre">get_courses</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.get_courses"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.get_courses" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves all courses from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list of courses</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of tuples</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.get_instructor_id_by_name">
+<span class="sig-name descname"><span class="pre">get_instructor_id_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instructor_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.get_instructor_id_by_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.get_instructor_id_by_name" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves the instructor’s ID by their name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>instructor_name</strong> (<em>str</em>) – The name of the instructor</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The ID of the instructor, or None if not found</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int or None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.get_instructors">
+<span class="sig-name descname"><span class="pre">get_instructors</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.get_instructors"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.get_instructors" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves all instructors from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list of instructors</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of tuples</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.get_students">
+<span class="sig-name descname"><span class="pre">get_students</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.get_students"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.get_students" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves all students from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list of students</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of tuples</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.register_student_course">
+<span class="sig-name descname"><span class="pre">register_student_course</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">student_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">course_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.register_student_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.register_student_course" title="Permalink to this definition"></a></dt>
+<dd><p>Registers a student for a course.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>student_id</strong> (<em>int</em>) – The ID of the student</p></li>
+<li><p><strong>course_id</strong> (<em>int</em>) – The ID of the course</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>sqlite3.IntegrityError</strong> – If the student is already registered for the course</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.show_error">
+<span class="sig-name descname"><span class="pre">show_error</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.show_error"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.show_error" title="Permalink to this definition"></a></dt>
+<dd><p>Displays an error message box with the given title and message.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>title</strong> (<em>str</em>) – The title of the error message box</p></li>
+<li><p><strong>message</strong> (<em>str</em>) – The message to display</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.show_info">
+<span class="sig-name descname"><span class="pre">show_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.show_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.show_info" title="Permalink to this definition"></a></dt>
+<dd><p>Displays an informational message box with the given title and message.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>title</strong> (<em>str</em>) – The title of the info message box</p></li>
+<li><p><strong>message</strong> (<em>str</em>) – The message to display</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.update_course">
+<span class="sig-name descname"><span class="pre">update_course</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">course_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">course_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">instructor_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.update_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.update_course" title="Permalink to this definition"></a></dt>
+<dd><p>Updates a course’s details.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>course_id</strong> (<em>int</em>) – The ID of the course</p></li>
+<li><p><strong>course_name</strong> (<em>str</em>) – The new name of the course</p></li>
+<li><p><strong>instructor_id</strong> (<em>int</em>) – The new ID of the instructor</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.update_course_instructor">
+<span class="sig-name descname"><span class="pre">update_course_instructor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">course_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">instructor_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.update_course_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.update_course_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Updates the instructor of a course.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>course_id</strong> (<em>int</em>) – The ID of the course</p></li>
+<li><p><strong>instructor_id</strong> (<em>int</em>) – The ID of the instructor</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.update_instructor">
+<span class="sig-name descname"><span class="pre">update_instructor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instructor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.update_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.update_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Updates an instructor’s details.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>instructor_id</strong> (<em>int</em>) – The ID of the instructor</p></li>
+<li><p><strong>name</strong> (<em>str</em>) – The new name of the instructor</p></li>
+<li><p><strong>age</strong> (<em>int</em>) – The new age of the instructor</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – The new email of the instructor</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.update_student">
+<span class="sig-name descname"><span class="pre">update_student</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">student_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.update_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.update_student" title="Permalink to this definition"></a></dt>
+<dd><p>Updates a student’s details.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>student_id</strong> (<em>int</em>) – The ID of the student</p></li>
+<li><p><strong>name</strong> (<em>str</em>) – The new name of the student</p></li>
+<li><p><strong>age</strong> (<em>int</em>) – The new age of the student</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – The new email of the student</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.Database.validate_email">
+<span class="sig-name descname"><span class="pre">validate_email</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">email</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Database.validate_email"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Database.validate_email" title="Permalink to this definition"></a></dt>
+<dd><p>Validates the format of the given email using a regular expression.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>email</strong> (<em>str</em>) – The email to validate</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>True if the email format is valid, otherwise False</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt.Instructor">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt.</span></span><span class="sig-name descname"><span class="pre">Instructor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class representing an instructor.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the instructor</p></li>
+<li><p><strong>age</strong> (<em>int</em>) – The age of the instructor</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – The email of the instructor</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt.</span></span><span class="sig-name descname"><span class="pre">SchoolManagementGUI</span></span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">QMainWindow</span></code></p>
+<p>A PyQt GUI class to manage the School Management System.</p>
+<p>This GUI allows the user to manage students, instructors, courses, student registrations,
+and assigning instructors to courses.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.add_course">
+<span class="sig-name descname"><span class="pre">add_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.add_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.add_course" title="Permalink to this definition"></a></dt>
+<dd><p>Adds a new course to the database using input from the UI.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.add_instructor">
+<span class="sig-name descname"><span class="pre">add_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.add_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.add_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Adds a new instructor to the database using input from the UI.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.add_student">
+<span class="sig-name descname"><span class="pre">add_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.add_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.add_student" title="Permalink to this definition"></a></dt>
+<dd><p>Adds a new student to the database using input from the UI.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.assign_instructor">
+<span class="sig-name descname"><span class="pre">assign_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.assign_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.assign_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Assigns an instructor to a course.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.create_assign_tab">
+<span class="sig-name descname"><span class="pre">create_assign_tab</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.create_assign_tab"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.create_assign_tab" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the tab for assigning instructors to courses.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.create_course_tab">
+<span class="sig-name descname"><span class="pre">create_course_tab</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.create_course_tab"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.create_course_tab" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the tab for managing courses (adding, editing, deleting, viewing).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.create_instructor_tab">
+<span class="sig-name descname"><span class="pre">create_instructor_tab</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.create_instructor_tab"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.create_instructor_tab" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the tab for managing instructors (adding, editing, deleting, viewing).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.create_register_tab">
+<span class="sig-name descname"><span class="pre">create_register_tab</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.create_register_tab"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.create_register_tab" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the tab for registering students to courses.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.create_student_tab">
+<span class="sig-name descname"><span class="pre">create_student_tab</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.create_student_tab"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.create_student_tab" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the tab for managing students (adding, editing, deleting, viewing).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.delete_course">
+<span class="sig-name descname"><span class="pre">delete_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.delete_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.delete_course" title="Permalink to this definition"></a></dt>
+<dd><p>Deletes the selected course from the database.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.delete_instructor">
+<span class="sig-name descname"><span class="pre">delete_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.delete_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.delete_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Deletes the selected instructor from the database.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.delete_student">
+<span class="sig-name descname"><span class="pre">delete_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.delete_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.delete_student" title="Permalink to this definition"></a></dt>
+<dd><p>Deletes the selected student from the database.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.edit_course">
+<span class="sig-name descname"><span class="pre">edit_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.edit_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.edit_course" title="Permalink to this definition"></a></dt>
+<dd><p>Edits the details of the selected course.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.edit_instructor">
+<span class="sig-name descname"><span class="pre">edit_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.edit_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.edit_instructor" title="Permalink to this definition"></a></dt>
+<dd><p>Edits the details of the selected instructor.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.edit_student">
+<span class="sig-name descname"><span class="pre">edit_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.edit_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.edit_student" title="Permalink to this definition"></a></dt>
+<dd><p>Edits the details of the selected student.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.initUI">
+<span class="sig-name descname"><span class="pre">initUI</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.initUI"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.initUI" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes the UI with tabs for managing students, instructors, courses, and registrations.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.load_assign_dropdowns">
+<span class="sig-name descname"><span class="pre">load_assign_dropdowns</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.load_assign_dropdowns"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.load_assign_dropdowns" title="Permalink to this definition"></a></dt>
+<dd><p>Loads course and instructor data into dropdowns for assignment.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.load_courses">
+<span class="sig-name descname"><span class="pre">load_courses</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.load_courses"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.load_courses" title="Permalink to this definition"></a></dt>
+<dd><p>Loads all courses from the database and displays them in the course table.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.load_instructors">
+<span class="sig-name descname"><span class="pre">load_instructors</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.load_instructors"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.load_instructors" title="Permalink to this definition"></a></dt>
+<dd><p>Loads all instructors from the database and displays them in the instructor table.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.load_student_course_dropdowns">
+<span class="sig-name descname"><span class="pre">load_student_course_dropdowns</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.load_student_course_dropdowns"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.load_student_course_dropdowns" title="Permalink to this definition"></a></dt>
+<dd><p>Loads student and course data into dropdowns for registration.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.load_students">
+<span class="sig-name descname"><span class="pre">load_students</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.load_students"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.load_students" title="Permalink to this definition"></a></dt>
+<dd><p>Loads all students from the database and displays them in the student table.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt.SchoolManagementGUI.register_student">
+<span class="sig-name descname"><span class="pre">register_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#SchoolManagementGUI.register_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.SchoolManagementGUI.register_student" title="Permalink to this definition"></a></dt>
+<dd><p>Registers a student to a course.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt.Student">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt.</span></span><span class="sig-name descname"><span class="pre">Student</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyqt.html#Student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyqt.Student" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class representing a student.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the student</p></li>
+<li><p><strong>age</strong> (<em>int</em>) – The age of the student</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – The email of the student</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Saad Itani.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
